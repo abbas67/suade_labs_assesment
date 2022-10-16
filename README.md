@@ -6,6 +6,11 @@ Uses Python 3.7
 1. Install requirements in requirements.txt.
 2. run load_data.py to populate the database.
 
+**Example Request**
+http://localhost:3000/api/v1/analytics?date=2019-08-09
+
+Note: The date format should be in ISO format or will be rejected.
+
 **Main things I would do differently with more time.**
 
 1. More test cases with a wider range of data.
